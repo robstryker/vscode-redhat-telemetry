@@ -1,6 +1,5 @@
 import {
-  getRedHatService,
-  TelemetryService,
-} from "../../lib/webworker";
+  RecommendationCore
+} from "../../lib/proposals/recommendationCore";
 
 console.log("Hello World");

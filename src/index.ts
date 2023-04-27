@@ -1,3 +1,4 @@
 //For legacy compatibility purposes, expose the node bits as default API
-import {getRedHatService, RedHatService, TelemetryService, TelemetryEvent, IdProvider} from './node';
-export {getRedHatService, RedHatService, TelemetryService, TelemetryEvent, IdProvider};
+export { RecommendationCore } from './proposals/recommendationCore';
+export { IRecommendationService } from './proposals/recommendationService';
+export { RecommendationModel, Recommendation, UserChoice } from './proposals/recommendationModel';
